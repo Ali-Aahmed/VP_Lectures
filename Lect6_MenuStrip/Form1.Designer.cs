@@ -49,12 +49,6 @@
             lblChars = new ToolStripStatusLabel();
             lblTime = new ToolStripStatusLabel();
             toolStripProgressBar1 = new ToolStripProgressBar();
-            timer1 = new System.Windows.Forms.Timer(components);
-            cmbDepartments = new ComboBox();
-            button1 = new Button();
-            txtDepart = new TextBox();
-            button2 = new Button();
-            progressBar1 = new ProgressBar();
             toolTip1 = new ToolTip(components);
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
@@ -81,27 +75,27 @@
             // newToolStripMenuItem
             // 
             newToolStripMenuItem.Name = "newToolStripMenuItem";
-            newToolStripMenuItem.Size = new Size(118, 26);
+            newToolStripMenuItem.Size = new Size(180, 26);
             newToolStripMenuItem.Text = "New";
             newToolStripMenuItem.Click += newToolStripMenuItem_Click;
             // 
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(118, 26);
+            openToolStripMenuItem.Size = new Size(180, 26);
             openToolStripMenuItem.Text = "Open";
             openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(118, 26);
+            saveToolStripMenuItem.Size = new Size(180, 26);
             saveToolStripMenuItem.Text = "Save";
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(118, 26);
+            exitToolStripMenuItem.Size = new Size(180, 26);
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
@@ -161,7 +155,7 @@
             txtFile.Location = new Point(0, 37);
             txtFile.Margin = new Padding(4, 5, 4, 5);
             txtFile.Name = "txtFile";
-            txtFile.Size = new Size(836, 130);
+            txtFile.Size = new Size(836, 403);
             txtFile.TabIndex = 1;
             txtFile.Text = "";
             toolTip1.SetToolTip(txtFile, "this textbox for any text");
@@ -192,70 +186,13 @@
             // lblTime
             // 
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(157, 21);
-            lblTime.Text = "toolStripStatusLabel1";
+            lblTime.Size = new Size(0, 21);
             // 
             // toolStripProgressBar1
             // 
             toolStripProgressBar1.MarqueeAnimationSpeed = 300;
             toolStripProgressBar1.Name = "toolStripProgressBar1";
             toolStripProgressBar1.Size = new Size(300, 20);
-            // 
-            // timer1
-            // 
-            timer1.Interval = 1000;
-            timer1.Tick += timer1_Tick;
-            // 
-            // cmbDepartments
-            // 
-            cmbDepartments.AutoCompleteCustomSource.AddRange(new string[] { "علوم الحاسب", "كيمياء", "فيزياء", "رياضيات", "صيدلة", "هندسة" });
-            cmbDepartments.AutoCompleteMode = AutoCompleteMode.Suggest;
-            cmbDepartments.AutoCompleteSource = AutoCompleteSource.CustomSource;
-            cmbDepartments.FormattingEnabled = true;
-            cmbDepartments.Items.AddRange(new object[] { "علوم الحاسب", "كيمياء", "فيزياء", "رياضيات" });
-            cmbDepartments.Location = new Point(282, 266);
-            cmbDepartments.Name = "cmbDepartments";
-            cmbDepartments.RightToLeft = RightToLeft.Yes;
-            cmbDepartments.Size = new Size(304, 31);
-            cmbDepartments.TabIndex = 3;
-            cmbDepartments.SelectedIndexChanged += cmbDepartments_SelectedIndexChanged;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(150, 201);
-            button1.Name = "button1";
-            button1.Size = new Size(95, 52);
-            button1.TabIndex = 4;
-            button1.Text = "Add";
-            toolTip1.SetToolTip(button1, "Enter Add to add items in Comobox");
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // txtDepart
-            // 
-            txtDepart.Location = new Point(282, 213);
-            txtDepart.Name = "txtDepart";
-            txtDepart.RightToLeft = RightToLeft.Yes;
-            txtDepart.Size = new Size(304, 31);
-            txtDepart.TabIndex = 5;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(37, 201);
-            button2.Name = "button2";
-            button2.Size = new Size(95, 52);
-            button2.TabIndex = 6;
-            button2.Text = "Delete";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(234, 366);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(482, 37);
-            progressBar1.TabIndex = 7;
-            progressBar1.Value = 50;
             // 
             // toolTip1
             // 
@@ -267,11 +204,6 @@
             AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(838, 471);
-            Controls.Add(progressBar1);
-            Controls.Add(button2);
-            Controls.Add(txtDepart);
-            Controls.Add(button1);
-            Controls.Add(cmbDepartments);
             Controls.Add(statusStrip1);
             Controls.Add(txtFile);
             Controls.Add(menuStrip1);
@@ -280,7 +212,6 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             statusStrip1.ResumeLayout(false);
@@ -310,13 +241,7 @@
         private ToolStripStatusLabel lblWords;
         private ToolStripStatusLabel lblChars;
         private ToolStripStatusLabel lblTime;
-        private System.Windows.Forms.Timer timer1;
         private ToolStripProgressBar toolStripProgressBar1;
-        private ComboBox cmbDepartments;
-        private Button button1;
-        private TextBox txtDepart;
-        private Button button2;
-        private ProgressBar progressBar1;
         private ToolTip toolTip1;
     }
 }

@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect4_CheckBox", "Lect4_Che
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect5_Timer", "Lect5_Timer\Lect5_Timer.csproj", "{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect6_MenuStrip", "Lec6_MenuStrip\Lect6_MenuStrip.csproj", "{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect6_MenuStrip", "Lect6_MenuStrip\Lect6_MenuStrip.csproj", "{05FDBACD-C393-7AC7-0383-C452B9046166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FDBACD-C393-7AC7-0383-C452B9046166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FDBACD-C393-7AC7-0383-C452B9046166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FDBACD-C393-7AC7-0383-C452B9046166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FDBACD-C393-7AC7-0383-C452B9046166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
