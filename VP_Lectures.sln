@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect1_Forms", "..\VP\Lect1_Forms\Lect1_Forms.csproj", "{6BEF8861-CA54-59E8-DF30-A6DF3F323078}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect2_Buttons", "Lect2_Buttons\Lect2_Buttons.csproj", "{66B4FABA-75F9-414B-B6DA-B3243A009A21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect3-Textboxes", "Lect3-Textboxes\Lect3-Textboxes.csproj", "{845458B8-6557-4002-B8CB-F310E09DEE9B}"
@@ -15,16 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect5_Timer", "Lect5_Timer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect6_MenuStrip", "Lect6_MenuStrip\Lect6_MenuStrip.csproj", "{05FDBACD-C393-7AC7-0383-C452B9046166}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect1_Forms", "Lect1_Forms\Lect1_Forms.csproj", "{4FAF94BD-8B26-5198-E976-E448F77DFB8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{05FDBACD-C393-7AC7-0383-C452B9046166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05FDBACD-C393-7AC7-0383-C452B9046166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05FDBACD-C393-7AC7-0383-C452B9046166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
