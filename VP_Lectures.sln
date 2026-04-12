@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect1_Forms", "..\VP\Lect1_Forms\Lect1_Forms.csproj", "{6BEF8861-CA54-59E8-DF30-A6DF3F323078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect2_Buttons", "Lect2_Buttons\Lect2_Buttons.csproj", "{66B4FABA-75F9-414B-B6DA-B3243A009A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect3-Textboxes", "Lect3-Textboxes\Lect3-Textboxes.csproj", "{845458B8-6557-4002-B8CB-F310E09DEE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect4_CheckBox", "Lect4_CheckBox\Lect4_CheckBox.csproj", "{B0D96C0B-84C1-4C33-81D9-97D1A874F3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect5_Timer", "Lect5_Timer\Lect5_Timer.csproj", "{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect6_MenuStrip", "Lec6_MenuStrip\Lect6_MenuStrip.csproj", "{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF8861-CA54-59E8-DF30-A6DF3F323078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B4FABA-75F9-414B-B6DA-B3243A009A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845458B8-6557-4002-B8CB-F310E09DEE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845458B8-6557-4002-B8CB-F310E09DEE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845458B8-6557-4002-B8CB-F310E09DEE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845458B8-6557-4002-B8CB-F310E09DEE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D96C0B-84C1-4C33-81D9-97D1A874F3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D96C0B-84C1-4C33-81D9-97D1A874F3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D96C0B-84C1-4C33-81D9-97D1A874F3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D96C0B-84C1-4C33-81D9-97D1A874F3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF52B5BA-98E1-40A4-B870-CC1EF84F0034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE96C3D0-86EE-4A2D-9E02-EA4C7EC4DA99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47BBE045-BA4E-4FFA-959C-C21DA0C29512}
+	EndGlobalSection
+EndGlobal
