@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect6_MenuStrip", "Lect6_Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect1_Forms", "Lect1_Forms\Lect1_Forms.csproj", "{4FAF94BD-8B26-5198-E976-E448F77DFB8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect7_Dialogs", "Lect7_Dialogs\Lect7_Dialogs.csproj", "{4A8AC12B-147E-4F3C-86B5-54C212F86DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect8_WithDB", "Lect8_WithDB\Lect8_WithDB.csproj", "{241FD8DA-46D1-45AC-95BC-406E0F1FF866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FAF94BD-8B26-5198-E976-E448F77DFB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8AC12B-147E-4F3C-86B5-54C212F86DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8AC12B-147E-4F3C-86B5-54C212F86DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8AC12B-147E-4F3C-86B5-54C212F86DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8AC12B-147E-4F3C-86B5-54C212F86DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241FD8DA-46D1-45AC-95BC-406E0F1FF866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241FD8DA-46D1-45AC-95BC-406E0F1FF866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241FD8DA-46D1-45AC-95BC-406E0F1FF866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241FD8DA-46D1-45AC-95BC-406E0F1FF866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
